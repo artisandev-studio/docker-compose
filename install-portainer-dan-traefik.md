@@ -18,7 +18,7 @@ sudo usermod -aG docker $USER
 
 ### 2. Buat file YAML
 ```bash
-docker-compose.yml
+sudo nano docker-compose.yml
 ```
 #### Silakan timpa file dengan konfigurasi di bawah ini
 ```bash
