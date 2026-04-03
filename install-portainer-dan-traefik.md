@@ -92,10 +92,10 @@ EMAIL=your.email@mail.com
 
 ### 4. Buat Network External
 ```bash
-docker network create webproxy
+sudo docker network create webproxy
 ```
 
 ### 5. Jalankan docker compose
 ```bash
-docker compose up
+sudo docker compose up
 ```
