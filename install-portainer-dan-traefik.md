@@ -81,6 +81,9 @@ networks:
 ```
 ### 3. Buat file .env
 ```bash
+sudo nano .env
+```
+```bash
 DOMAIN=sub.domain.com
 EMAIL=your.email@mail.com
 ```
