@@ -20,6 +20,7 @@ sudo usermod -aG docker $USER
 ```bash
 sudo nano docker-compose.yml
 ```
+
 #### Silakan timpa file dengan konfigurasi di bawah ini
 ```bash
 services:
@@ -79,6 +80,7 @@ networks:
   webproxy:
     external: true
 ```
+
 ### 3. Buat file .env
 ```bash
 sudo nano .env
@@ -86,4 +88,14 @@ sudo nano .env
 ```bash
 DOMAIN=sub.domain.com
 EMAIL=your.email@mail.com
+```
+
+### 4. Buat Network External
+```bash
+docker network create webproxy
+```
+
+### 5. Jalankan docker compose
+```bash
+docker compose up
 ```
