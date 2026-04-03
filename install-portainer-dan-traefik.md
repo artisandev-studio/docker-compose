@@ -97,5 +97,5 @@ sudo docker network create webproxy
 
 ### 5. Jalankan docker compose
 ```bash
-sudo docker compose up
+sudo docker compose up -d
 ```
