@@ -1,12 +1,6 @@
 ## 1. Install Docker, Portainer dan Traefik
 ### 1. Buat Folder dan install docker
 ```bash
-mkdir portainer
-```
-```bash
-cd portainer
-```
-```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 ```
 ```bash
@@ -14,6 +8,12 @@ sudo sh get-docker.sh
 ```
 ```bash
 sudo usermod -aG docker $USER
+```
+```bash
+mkdir portainer
+```
+```bash
+cd portainer
 ```
 
 ### 2. Buat file YAML
