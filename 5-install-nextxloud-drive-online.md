@@ -19,7 +19,7 @@ DB_USER=nextcloud_user
 DB_PASSWORD=Password@123
 DB_ROOT_PASSWORD=Password@123
 ```
-### 2. Buat Folder .env
+### 2. Buat File docker-compose.yml
 ```bash
 sudo nano docker-compose.yml
 ```
