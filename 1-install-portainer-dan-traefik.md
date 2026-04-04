@@ -1,4 +1,4 @@
-## 1. Install Docker, Portainer dan Traefik
+## Install Docker, Portainer dan Traefik
 ### 1. Buat Folder dan install docker
 ```bash
 sudo apt-get update && apt-get upgrade -y
