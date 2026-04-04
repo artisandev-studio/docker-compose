@@ -1,3 +1,4 @@
+## install Kuma Monitoring Web App
 ### 1. Buat Folder
 ```bash
 mkdir uptime
