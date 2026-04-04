@@ -7,14 +7,16 @@ mkdir maildev
 sudo nano .env
 ```
 Diisi dengan :
-```bash
-MAIL_DOMAIN=mailpit.voips.biz.id
-MAIL_AUTH=admin:Password_Kamu_Yang_Sudah_Di_Hash
-```
+
 Note :
 Untuk password bisa di buat dengan cara 
 ```bash
 docker run --rm httpd:alpine htpasswd -nb admin password123 | sed -e 's/\$/\$\$/g'
+```
+
+```bash
+MAIL_DOMAIN=maildev.domainkamu.com
+MAIL_AUTH=admin:Password_Kamu_Yang_Sudah_Di_Hash
 ```
 ### 3. Buat docker-compose.yml
 ```bahs
