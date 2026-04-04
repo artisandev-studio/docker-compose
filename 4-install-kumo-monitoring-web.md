@@ -40,7 +40,7 @@ networks:
   webproxy:
     external: true
 ```
-### Jalankan docker compose
+### 3. Jalankan docker compose
 ```bash
 docker compose up -d
 ```
