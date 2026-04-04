@@ -1,4 +1,4 @@
-## Install Kuma Monitoring Web App
+## Install Kuma Monitoring Web App Alternative Uptime Robot
 ### 1. Buat Folder
 ```bash
 mkdir uptime
