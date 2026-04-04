@@ -65,12 +65,6 @@ docker compose up -d
 ```
 ### 5. Test Seending
 ## Online SMTP Tester
-
-```
-let message = 'Hello world';
-alert(message);
-```
-
 ## Inline code
 Menggunakan Website "Online SMTP Tester"
 Ada beberapa website yang bisa mengirim email percobaan ke server SMTP kustom. Salah satu yang paling stabil adalah Smtper.net.
