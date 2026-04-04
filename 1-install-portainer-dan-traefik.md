@@ -1,6 +1,9 @@
 ## 1. Install Docker, Portainer dan Traefik
 ### 1. Buat Folder dan install docker
 ```bash
+sudo apt-update && apt-upgrade -y
+```
+```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 ```
 ```bash
