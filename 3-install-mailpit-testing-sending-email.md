@@ -1,3 +1,4 @@
+## Install Mailpit
 ### 1. Buat Folder
 ```bash
 mkdir maildev
