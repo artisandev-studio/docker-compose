@@ -10,7 +10,7 @@ sudo nano .env
 ```bash
 KUMA_DOMAIN=sub.domain.com
 ```
-### 2. Buat Folder .env
+### 2. Buat File docker-compose.yml
 ```bash
 sudo nano docker-compose.yml
 ```
