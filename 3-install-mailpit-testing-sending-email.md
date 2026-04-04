@@ -1,4 +1,4 @@
-## Install Mailpit Alternative
+## Install Mailpit Alternative MailTrap
 ### 1. Buat Folder
 ```bash
 mkdir maildev
