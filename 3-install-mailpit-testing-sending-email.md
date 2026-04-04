@@ -19,6 +19,9 @@ MAIL_DOMAIN=maildev.domainkamu.com
 MAIL_AUTH=admin:Password_Kamu_Yang_Sudah_Di_Hash
 ```
 ### 3. Buat docker-compose.yml
+```bash
+sudo nano docker-compose.yml
+```
 ```bahs
 services:
   mailpit:
